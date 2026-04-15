@@ -37,7 +37,7 @@ def main():
     print("\n=== Informações da Carteira ===")
     print(f"Endereço: {wallet.address}")
     print(f"Chave Pública: {wallet.public_key.decode()}")
-    print(f"Chave Privada: {wallet.private_key.decode()}")
+    print("Chave Privada: [PROTEGIDA]")
 
     # Menu interativo
     print("Entrando no loop do menu...")
